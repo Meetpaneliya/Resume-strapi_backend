@@ -4,13 +4,13 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "npm install --legacy-peer-deps && strapi build",
+    "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "npm install --legacy-peer-deps && strapi start",
+    "start": "strapi start",
     "strapi": "strapi",
-    "prestart": "npm run build"
+    "prestart": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.0.2-beta.0",
