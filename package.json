@@ -9,7 +9,8 @@
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "prestart": "npm run build"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.0.2-beta.0",
@@ -21,12 +22,16 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "5.0.2-beta.0"
   },
   "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "npm": ">=8.0.0"
   },
   "strapi": {
     "uuid": "c6dee945-14aa-4283-ad90-172ae76d9ce7"
