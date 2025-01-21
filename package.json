@@ -10,8 +10,8 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi",
-    "prestart": "npm install --legacy-peer-deps && npm run build",
-    "postinstall": "npm install --legacy-peer-deps && npm run build"
+    "prestart": "npm run build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.0.2-beta.0",
