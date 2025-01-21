@@ -17,14 +17,14 @@
     "@strapi/plugin-cloud": "5.0.2-beta.0",
     "@strapi/plugin-users-permissions": "5.0.2-beta.0",
     "@strapi/strapi": "5.0.2-beta.0",
+    "dotenv": "^16.4.7",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0",
-    "dotenv": "^16.0.0"
+    "styled-components": "^6.0.0"
   },
   "peerDependencies": {
     "@strapi/strapi": "5.0.2-beta.0"
@@ -33,7 +33,6 @@
     "@strapi/strapi": "5.0.2-beta.0",
     "@strapi/plugin-cloud": "5.0.2-beta.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=8.0.0"
