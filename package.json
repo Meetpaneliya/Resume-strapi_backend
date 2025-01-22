@@ -8,7 +8,7 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "node server.js",
+    "start": "strapi start",
     "strapi": "strapi",
     "prestart": "npm run build",
     "postinstall": "npm run build"
