@@ -9,13 +9,6 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {
-    name: 'strapi::health',
-    config: {
-      enabled: true,
-      path: '/health'
-    }
-  }
 ];
 
 
